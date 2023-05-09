@@ -10,7 +10,7 @@ public class Main {
         createREG.loadHashMap();
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your command");
+        System.out.println("Enter your command \n (Use ';' when giving multiple commands) : ");
         String input = sc.nextLine();
         String actions[] = input.split(";");
         for(String action: actions) {
