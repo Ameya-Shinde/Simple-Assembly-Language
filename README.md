@@ -6,5 +6,5 @@ A simple implementation of assembly language using JAVA and OPPs.
 2. Clear everything in the file, making it a blank file and thus a blank dataset.
 
 # Functionality
-## MV (REG_Name),#(int REG_Value)
+### MV (REG_Name),#(int REG_Value)
 a. The MV command is used to create a new Register
