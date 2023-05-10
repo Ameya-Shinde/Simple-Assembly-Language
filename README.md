@@ -7,7 +7,7 @@ A simple implementation of assembly language using JAVA and OPPs.
 
 # Functionality
 ### MV (REG_Name),#(int REG_Value)
-The MV command is used to create a new Register
+* The MV command is used to create a new Register
 
 ### ADD (REG1_Name),(int value)/(REG2_Name)
 The ADD command has two Functionalities depending on the command
@@ -15,9 +15,9 @@ The ADD command has two Functionalities depending on the command
 2. Add the value of another register into the specified register's value.
 
 ### SHOW REG
-This command displays the current state of the data, displaying all the registers with their present values.
+* This command displays the current state of the data, displaying all the registers with their present values.
 
 ### EXIT
-This command is used to exit the program once all the desired operations are done.
+* This command is used to exit the program once all the desired operations are done.
 
 
