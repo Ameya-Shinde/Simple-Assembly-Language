@@ -28,6 +28,8 @@ The ADD command has two Functionalities depending on the command
 * Since registers are unique HashMap is the used to store Key,Value pairs
 * Static HashMap is used as the data needs to be consistent throughout the program
 
+You can also give multiple commands in a single line by seperating them using ';' at the end of each command 
+
 # Data.Properties File
 * It is a source file for our program.
 * Our HashMap data is stored and updated onto this file so that it can accessed at any time
