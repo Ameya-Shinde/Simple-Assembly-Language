@@ -7,4 +7,4 @@ A simple implementation of assembly language using JAVA and OPPs.
 
 # Functionality
 ### MV (REG_Name),#(int REG_Value)
-a. The MV command is used to create a new Register
+The MV command is used to create a new Register
