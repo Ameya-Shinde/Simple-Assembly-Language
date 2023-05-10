@@ -22,4 +22,17 @@ The ADD command has two Functionalities depending on the command
 ### EXIT
 * This command is used to exit the program once all the desired operations are done.
 
+#Data Structure Used
+* HashMap
+* We have to store registers with their values
+* Since registers are unique HashMap is the used to store Key,Value pairs
+* Static HashMap is used as the data needs to be consistent throughout the program
+
+# Data.Properties File
+* It is a source file for our program.
+* Our HashMap data is stored and updated onto this file so that it can accessed at any time
+* Using this the data is not lost on each run
+* The properties class is used which extends the java.util.HashTable to store the data into the file as simple plain text using properties.store
+* At the beggining of the program properties.load is used to retrive the data from the file into a Map
+
 
